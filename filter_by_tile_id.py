@@ -49,10 +49,6 @@ class FilterByTile(object):
         for file_to_filter in self.files:
             self.filter_fastq(file_to_filter, pref=pref)
 
-basedir = "/scratch/shire/data/nj/projects/crc_fsg/data/raw/20240418_875_AR"
-outdir = "/scratch/shire/data/nj/projects/crc_fsg/data/raw/filtered_fastq"
-tiles = ['1101', '1102', '1103', '1104', '1105', '1106', '1107', '2101', '2102', '2103', '2104', '2105', '2106', '2107']
-
 if __name__ == "__main__":
     import sys
     import argparse
